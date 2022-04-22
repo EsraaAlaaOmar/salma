@@ -1,0 +1,83 @@
+@import "~bootstrap/scss/bootstrap";
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.img{
+    background-image: url("./images/mainimage.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: calc(100vh - 50px); /* You must set a specified height */
+    width: 100vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    .over-lay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position:relative;
+       
+        .text-button{
+            position: absolute;
+            bottom:20%;
+            width:100%;
+            text-align: center;
+           color: #fff;
+           font-size:30px;
+           font-weight: bold;
+           .text{
+               font-weight: normal;
+               font-size: 16px;
+               margin: 5px 0;
+           }
+           button{
+               font-size: 16px;
+               font-weight: normal;
+               border: none;
+               outline: none;
+               border-radius:25px;
+               padding:10px 15px ;
+               background-color: #3c638a;;
+               color: #fff;
+           }
+        }
+    }
+
+}
+    
+.second-row{
+    padding:20px;
+    padding-top: 30px;
+    text-align:left;
+    margin-bottom:20px;
+    .text{
+        h5{
+            font-size: 24px;
+            color: #3c638a;
+        }
+        color: gray;
+        width: 80%;
+        margin: auto;
+        margin-top: 10vh;
+      
+       
+     
+        .content-css{
+            margin-top:20px;
+            line-height:25px;
+            height:40vh;
+        }
+        .my-anchor-css-class{
+            color: #3c638a;
+        }
+    }
+    img{
+        display:block;
+        
+        text-align:left;
+        margin-top: 10vh;
+        width:80%;
+        height:50vh;
+    }
+}
