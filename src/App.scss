@@ -1,20 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
 .navbar{
-    background-color: #fff;
+    // background-color: #fff;
     width: 100%;
     height: 50px;
+    font-family: cursive;
+    // color: #1489bb;
+    color: #fff;
+    .nav-span{
+         margin: 20px;
+     }
+     select{
+         background-color:#148abc;
+         color: #fff;
+     }
+     .right{
+         padding:0 50px;
+        .nav-span{
+            margin:0 20px;
+        }
+
+     }
+     .trans{
+        font-size: 20px;
+        padding: 0 20px;
+     }
 }
 .img{
     background-image: url("./images/mainimage.png"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
-    height: calc(100vh - 50px); /* You must set a specified height */
-    width: 100vw;
+    height:100vh; /* You must set a specified height */
+    width: 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
     .over-lay{
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background-color: rgba(0, 0, 0, 0.3);
         position:relative;
        
@@ -50,13 +71,15 @@
     padding:20px;
     padding-top: 30px;
     text-align:left;
-    margin-bottom:20px;
+   
+  
     .text{
         h5{
             font-size: 24px;
             color: #3c638a;
         }
-        color: gray;
+        // color: gray;
+        color: #000;
         width: 80%;
         margin: auto;
         margin-top: 10vh;
@@ -66,7 +89,7 @@
         .content-css{
             margin-top:20px;
             line-height:25px;
-            height:40vh;
+            min-height:40vh;
         }
         .my-anchor-css-class{
             color: #3c638a;
@@ -79,5 +102,50 @@
         margin-top: 10vh;
         width:80%;
         height:50vh;
+    }
+}
+.third-row{
+    padding:30px;
+    font-size: 18px;
+    color: #3c638a;
+    font-weight: bold;
+    p{
+        font-size:16px;
+        font-weight: normal;
+    }
+    .icon{
+        width:83px ;
+        height:75px;
+        padding-top: 4px;
+        margin: auto;
+        color:#faa933;
+        font-size: 50px;
+        margin-bottom: 5px;
+        border: solid 1px #faa933;
+        border-radius:50%;
+        span{
+                display: block;
+                margin-top: -10px;
+        }
+    }
+}
+.fourth-row{
+    margin-top: 50px;
+    max-width: 100%;
+    .col{
+        padding:0;
+    }
+    .div{
+        background-color:#faa933;
+        // width:120%;
+        height:250px;
+      
+    }
+    .image{
+        img{
+            width:100%;
+            height:250px;
+        }
+       
     }
 }

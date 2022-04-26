@@ -1,14 +1,29 @@
 import React from 'react'
+import { FiMonitor, FiUser} from 'react-icons/fi';
+import {AiOutlineSafetyCertificate} from 'react-icons/ai'
 import { Col, Row } from 'react-bootstrap'
 import ShowMoreText from 'react-show-more-text'
 const landing = () => {
   return (
     <>
-      <div className="navbar">
-
-      </div>
+  
       <div className="img">
           <div className="over-lay"> 
+          <div className="navbar">
+      <span className='nav-span trans'>Transportation</span>
+      <span className="right">
+        <span className='nav-span'>Home</span>
+        <span className='nav-span'>About us </span>
+        <span className='nav-span'>services</span>
+        <span>Contact</span>
+        <span className='nav-span'><select name="services">
+          <option>EN</option>
+          <option>AR</option>
+          
+          </select></span>
+      </span>
+
+      </div>
            <div className='text-button'>
                <div>
                   TARS Keep you Safe
@@ -52,6 +67,56 @@ const landing = () => {
               </Col>
             
           </Row>
+      </div>
+      <div className="third-row">
+           <Row>
+            <Col>
+              <div>
+                <div className="icon"><span><FiUser /></span></div>
+
+                Increase reliability
+               
+
+              </div>
+            
+            </Col>
+            <Col>
+              <div>
+                <div className="icon"><span><AiOutlineSafetyCertificate /></span></div>
+
+                Safety
+               
+
+              </div>
+            
+            </Col>
+            <Col>
+              <div>
+                <div className="icon"><span><FiMonitor /></span></div>
+
+                Monitoring
+               
+
+              </div>
+            
+            </Col>
+            </Row>
+      </div>
+      <div className="fourth-row">
+        <Row>
+          <Col>
+            <div className='div'>
+
+            </div>
+          </Col>
+          <Col>
+            <div className='image'>
+              <img src="/imgs/map.jpg" />
+
+            </div>
+          </Col>
+        </Row>
+
       </div>
     
     </>
