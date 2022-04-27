@@ -112,6 +112,10 @@
     p{
         font-size:16px;
         font-weight: normal;
+        max-width: 80%;
+        display: block;
+        margin:  auto;
+       
     }
     .icon{
         width:83px ;
@@ -130,7 +134,7 @@
     }
 }
 .fourth-row{
-    margin-top: 50px;
+    margin-top: 70px;
     max-width: 100%;
     .col{
         padding:0;
@@ -139,6 +143,17 @@
         background-color:#faa933;
         // width:120%;
         height:250px;
+       position: relative;
+        .text{
+            color: #fffee9;
+            position: absolute;
+            bottom:80px;
+            width: 41%;
+            left: 20%;
+            text-align:left;
+            font-size: 22px;
+            font-family: cursive;
+        }
       
     }
     .image{

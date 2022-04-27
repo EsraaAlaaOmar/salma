@@ -76,7 +76,7 @@ const landing = () => {
 
                 Increase reliability
                
-
+                <p>Reliability is about how close repeated measurements are to each other. You can consider the most common reasons of road accidents </p>
               </div>
             
             </Col>
@@ -86,6 +86,7 @@ const landing = () => {
 
                 Safety
                
+                <p>Road safety pertains to the measures taken to reduce accidents , traffic injuries and death so main target of TARS increasing safety</p>
 
               </div>
             
@@ -95,7 +96,7 @@ const landing = () => {
                 <div className="icon"><span><FiMonitor /></span></div>
 
                 Monitoring
-               
+                <p>by using website that receives the data from the bus and if there are any emergency messages, control room must take a decision</p>
 
               </div>
             
@@ -106,7 +107,9 @@ const landing = () => {
         <Row>
           <Col>
             <div className='div'>
-
+                  <div className='text'>
+                  Our goal is a safe country from road accidents
+                  </div>
             </div>
           </Col>
           <Col>
