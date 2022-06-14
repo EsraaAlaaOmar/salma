@@ -11,7 +11,7 @@ const DriverInfo = () => {
         <Navbar />
          <div className='main-info'>
              <span> Name : </span> Mohamed hassan<br/>
-             <span> ID : </span> 3501  <br/>
+             <span> ID : </span> 351  <br/>
              <span> Bus Number : </span> 3501<br/>
               <div className='direction'><span><FaDotCircle /></span> Helwan &nbsp;  <br/>
              <span> <BsThreeDotsVertical/></span>
