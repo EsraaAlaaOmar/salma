@@ -164,3 +164,87 @@
        
     }
 }
+.driver-info{
+    .navbar{
+        background-color: #3c638a;
+        padding-bottom: 75px;
+    }
+    .main-info{
+        text-align:left;
+        margin:50px auto;
+        margin-bottom:0px;
+        box-shadow: 3px 3px 3px 3px #d7d7d7;
+        padding:20px;
+        width: 350px;
+        color: #3c638a;
+        font-weight: 500;
+        span{
+            font-weight: bold;
+            margin-right: 2px;
+        }
+        .direction{
+            margin:auto;
+            margin-left: 10px;
+            margin-top: 10px;
+            // text-align:center;
+            font-weight: bold;
+            span{
+                color: #000;
+                font-size: 12px;
+                vertical-align:top;
+            }
+        }
+    }
+    .property{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        position: relative;
+        .square{
+            width: 400px;
+            max-width: 100%;
+            border: solid 1px #3c638a;
+            height: 400px;
+            margin: auto;
+
+        }
+        .circle{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            left:calc(50% - 75px);
+            top: -75px;
+            background-color: #3c638a;
+            .title{
+                font-size: 16px;
+                margin-top: 65px;
+                color: #fff;
+                font-weight: 500;
+            }
+        
+
+        }
+        img{
+            width: 100% !important;
+            height: 90% !important;
+        }
+        .error-dev{
+            height:10%;
+            background-color: #3c638a;
+            color:#fff;
+            padding-top: 2%;
+            .error{
+            
+            }
+            .no-errors{
+             
+            }
+        }
+        .location{
+            height:10%;
+            background-color: #3c638a;
+            color:#fff;
+            padding-top: 2%;
+        }
+    }
+}
