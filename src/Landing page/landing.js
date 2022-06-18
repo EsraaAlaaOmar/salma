@@ -3,33 +3,21 @@ import { FiMonitor, FiUser} from 'react-icons/fi';
 import {AiOutlineSafetyCertificate} from 'react-icons/ai'
 import { Col, Row } from 'react-bootstrap'
 import ShowMoreText from 'react-show-more-text'
+import Navbar from '../Reusable/Navbar';
+import { Link } from 'react-router-dom';
 const landing = () => {
   return (
     <>
   
       <div className="img">
           <div className="over-lay"> 
-          <div className="navbar">
-      <span className='nav-span trans'>Transportation</span>
-      <span className="right">
-        <span className='nav-span'>Home</span>
-        <span className='nav-span'>About us </span>
-        <span className='nav-span'>services</span>
-        <span>Contact</span>
-        <span className='nav-span'><select name="services">
-          <option>EN</option>
-          <option>AR</option>
-          
-          </select></span>
-      </span>
-
-      </div>
+          <Navbar />
            <div className='text-button'>
                <div>
                   TARS Keep you Safe
                </div>
                <div className='text'>Warning , Tracking  and Monitoring for  Keeping  you Safe</div>
-                <button>See Driver Data</button>
+              <Link to='/info'> <button>See Driver Data</button></Link> 
             
            </div>
 
