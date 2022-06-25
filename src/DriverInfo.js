@@ -30,12 +30,13 @@ const DriverInfo = () => {
               <InfoBox title={'Lane Detection'} img={'/imgs/lane.jpg'}  />
             </Col>
             <Col md={6}>
-              <InfoBox title={'Drowsy Driving'} img={'/imgs/lane.jpg'} error={'no data come from server' } />
+              <InfoBox title={'Drowsy Driving'} img={'/imgs/lane.jpg'} error={'no data come from server' } drowsy={true} />
             </Col>
             <Col md={6}>
-              <InfoBox title={'GPS Tracking'} img={'/imgs/gps.jpeg'} location={true}  />
+              <InfoBox title={'GPS Tracking'} img={'/imgs/gps.jpeg'} location={true}   />
             </Col>
          </Row>
+       
     </div>
   )
 }
